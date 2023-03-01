@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  crsfml:
+    git: https://github.com/oprypin/crsfml.git
+    version: 2.5.2+git.commit.02a5fa0e6592149219544966379d0d0dc708b45c
+
+  scar:
+    path: ../scar/
+    version: 0.3.1
+
+  zstd:
+    git: https://github.com/didactic-drunk/zstd.cr.git
+    version: 1.2.0
+
