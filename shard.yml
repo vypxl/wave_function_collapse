@@ -1,4 +1,4 @@
-name: wfc.cr
+name: wave_function_collapse
 version: 0.1.0
 authors:
   - vypxl <thomas@vypxl.io>
@@ -6,9 +6,8 @@ description: |
   Wave function collapse algorithm for procedural generation in Crystal
 dependencies:
   scar:
-    # github: vypxl/scar
-    # version: "~> 0.3"
-    path: ../scar/
+    github: vypxl/scar
+    version: "~> 0.3"
 license: MIT
 targets:
   main:
